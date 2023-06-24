@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Enquiry Form</title>
+</head>
+
+<body>
+  <h1 class="center">Enquiry Form</h1>
+
+  <form [formGroup]="queryForm" (ngSubmit)="help(name.value,email.value,message.value)">
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" formControlName="name" #name>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" formControlName="email" #email>
+    </div>
+    <div>
+      <label for="text">Message</label>
+      <input type="text" id="message" formControlName="message" #message>
+    </div>
+    <div>
+      <button type="submit" >Submit</button>
+    </div>
+  </form>
+  
+</body>
+
+</html>

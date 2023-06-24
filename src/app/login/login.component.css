@@ -1,0 +1,22 @@
+    .warn{
+        color: red;
+    }
+    .middle{
+        justify-content:center;
+        display:flex;
+    }
+    .center{
+        text-align: center;
+        color: blue;
+    }
+    
+    
+    .wrapper {
+        text-align: center;
+    }
+    
+    .button {
+        position:relative;
+        top: 40%;
+    }
+    
